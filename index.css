@@ -77,7 +77,7 @@ body{
   width: 60%;
   height: 40px;
 
-  color: #1D3354;
+  color: #c7d9ab;
   font-family: Varela Round;
   font-size: 15px;
   font-weight: bold;
@@ -155,7 +155,7 @@ body{
   height: 100%;
   float: left;
   background-color: Transparent;
-  color: #1e2a3b;
+  color: #b991d797;
   font-size: 15px;
 }
 #chat_input_send{
