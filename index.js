@@ -43,7 +43,8 @@ window.onload = function() {
   
         var title = document.createElement('h1')
         title.setAttribute('id', 'title')
-        title.textContent = 'MemeChat 2.0'
+        title.textContent = 'Live ChitChat with Friend'
+        
   
         title_inner_container.append(title)
         title_container.append(title_inner_container)
@@ -71,7 +72,7 @@ window.onload = function() {
       var join_input = document.createElement('input')
       join_input.setAttribute('id', 'join_input')
       join_input.setAttribute('maxlength', 15)
-      join_input.placeholder = 'No.... It\'s Patrick Star'
+      join_input.placeholder = 'Type your name here..'
       // Every time we type into the join_input
       join_input.onkeyup  = function(){
         // If the input we have is longer that 0 letters
@@ -148,7 +149,7 @@ loader.setAttribute('class', 'loader')
       var chat_input_send = document.createElement('button')
       chat_input_send.setAttribute('id', 'chat_input_send')
       chat_input_send.setAttribute('disabled', true)
-      chat_input_send.innerHTML = `<i class="far fa-paper-plane"></i>`
+      chat_input_send.innerHTML = `<i class="bi bi-send">send</i>`
 
       var chat_input = document.createElement('input')
       chat_input.setAttribute('id', 'chat_input')
@@ -334,3 +335,4 @@ if(app.get_name() != null){
   app.chat()
 }
 }
+
