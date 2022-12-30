@@ -1,6 +1,6 @@
 body{
     /* https://www.color-hex.com/color/d3d3d3 */
-    background-color: #fff; /*#f6f6f6, EBEBD3, fafafa*/
+    background-color: rgb(19, 1, 1); /*#f6f6f6, EBEBD3, fafafa*/
     font-family: Bungee Outline;
     font-weight: 900;
   
@@ -22,16 +22,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  
-    background-color: #D64045;/*#467599;*/
-    border-bottom: 5px solid #fff;
-    box-shadow: 0 0 30px -18px #D64045;
+    
+    background-color: #5f8ad0;/*#467599;*/
+    border-bottom: 5px solid rgb(187, 27, 27);
+    box-shadow: 0 0 30px -18px #8a6f70;
   
   }
   #title_inner_container{
     width: 100%;
     height: 100%;
-  
+    font-style: cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,10 +41,11 @@ body{
   }
   #title{
     display: inline-block;
-    color: #fff;/*EBEBD3, C5283D*/
+    color: rgb(47, 23, 23);/*EBEBD3, C5283D*/
     font-size: 55px;
     letter-spacing: 2px;
     user-select: none;
+    font-style: curvic;
   }
   
   #join_container{
@@ -91,7 +92,7 @@ body{
 #join_button_container{
   width: 100%;
   height: 50px;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +142,7 @@ body{
   height: 10%;
 
   float: left;
-  border-bottom: 2px dashed #1D3354;
+  border-bottom: 2px dashed #dcdfe4;
   background-color: Transparent;
 
   padding-left: 15px;
@@ -154,7 +155,7 @@ body{
   height: 100%;
   float: left;
   background-color: Transparent;
-  color: #1D3354;
+  color: #1e2a3b;
   font-size: 15px;
 }
 #chat_input_send{
@@ -164,12 +165,16 @@ body{
   font-size: 18px;
   background-color: Transparent;
   text-align: right;
-  color: #ccc;
+  color: rgb(27, 201, 65);
+  border-color: #D64045;
 }
 #chat_input_send.enabled{
-  color: #D64045;
-  background-color: Transparent;
-  cursor: pointer;
+  color: #1ecc32;
+  background-color: rgb(19, 1, 1);
+  cursor:pointer ;
+  border-color: #D64045;
+  
+  
 }
 #chat_logout_container{
   width: 100%;
@@ -199,7 +204,7 @@ body{
   width: 100%;
   display: inline-block;
 
-  color: #1D3354;
+  color: #e4e9f0;
 }
 .message_user_container{
   width: 100%;
@@ -287,5 +292,8 @@ body{
     border-radius: 5px;
   }
   
+ h1{
+  font-family:cursive;
+ }
   
   
